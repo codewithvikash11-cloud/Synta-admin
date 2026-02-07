@@ -1,4 +1,6 @@
 import connectToDatabase from '@/lib/mongodb';
+
+export const dynamic = 'force-dynamic';
 import ErrorModel from '@/lib/models/Error';
 import Link from 'next/link';
 import {
